@@ -50,7 +50,7 @@ border-spacing: 0;
 body {
   font-size: 1em;
   line-height: 1.5;
-  background: #888888 url(../images/IMG_9016.jpg) no-repeat;
+  background: #888888 url(../images/IMG_9016.jpg) 20% no-repeat;
   font-family: 'Comic Sans MS', cursive, sans-serif; font-weight: 1;
   color: #000000;
 }
@@ -103,7 +103,7 @@ text-align: center;
   z-index: -1;
 
   display: block;
-  background-image: url('../images/ifly-tunnel1.jpg');
+  background-image: url('../images/IMG_9016.jpg');
   width: 2500px;
   height: 1665px;
   display: block;
@@ -192,9 +192,11 @@ a.button span {
 }
 
 .reload {
-background-image: url( 'https://github.com/mary-grace/Ember-Pups-McGee/blob/master/images/dogbone.jpg' );
-height: 77px;
-width: 180px
+background-image: url( 'http://emberpupsmcgee.com/images/dogbone.jpg' );
+background-repeat: no-repeat;
+height: 78px;
+width: 160px;
+display: block;
 color: #000000;
 padding: 10px;
 }

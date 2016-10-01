@@ -56,10 +56,10 @@ body {
 }
 
 a {
-  color: #000000;
+  color: #f0531b;
 }
 a:hover {
-  color: #FF0000;
+  color: #f05e1b;
 }
 
 header {
@@ -192,7 +192,9 @@ a.button span {
 }
 
 .reload {
-background-color: #B83504;
+background-image: url( 'https://github.com/mary-grace/Ember-Pups-McGee/blob/master/images/dogbone.jpeg' );
+height: 77px;
+width: 180px
 color: #000000;
 padding: 10px;
 }

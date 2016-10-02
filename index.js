@@ -40,7 +40,7 @@ var sendResponse = function(data) {
 
 var processRelayMessage = function(data) {
   console.log('New EmberDog Friend: ', data.friendly_from);
-  sendResponse();
+  sendResponse(data);
 };
 /**
   Defines the endpoint that will accept batches from SparkPost

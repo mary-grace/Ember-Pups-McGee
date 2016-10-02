@@ -1,0 +1,25 @@
+{
+  "name": "ember-pups-mcgee",
+  "version": "1.0.0",
+  "description": "I likes peoples! Plz say hi to me -- I likes sending the emails too.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mary-grace/Ember-Pups-McGee.git"
+  },
+  "author": "Mary Thengvall, @mary_grace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mary-grace/Ember-Pups-McGee/issues"
+  },
+  "homepage": "https://github.com/mary-grace/Ember-Pups-McGee#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "sparkpost": "^1.3.8"
+  }
+}

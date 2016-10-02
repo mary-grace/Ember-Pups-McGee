@@ -8,7 +8,8 @@ app.set('port', process.env.PORT || 3000);
 app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
-  res.send('Hello World');
+  res.redirect('http://emberpupsmcgee.com');
+  console.log('redirected to emberpupsmcgee.com')
 });
 
 
@@ -40,7 +41,8 @@ var sendResponse = function(data) {
 
 var processRelayMessage = function(data) {
   console.log('New EmberDog Friend: ', data.friendly_from);
-  console.log('What My Friend Said: ', data.content_html)
+  console.log('Topic of Their Email: ', data.content_subject);
+  console.log('What My Friend Said: ', data.content_html);
   sendResponse(data);
 };
 /**

@@ -33,7 +33,8 @@ line-height: 1;
 ol, ul {
 list-style: none;
 }
-blockquote, q {
+blockquote, q
+ {
 quotes: none;
 }
 blockquote:before, blockquote:after,
@@ -194,7 +195,7 @@ a.button span {
 .reload {
 background-image: url( 'http://emberpupsmcgee.com/images/dogbone.jpg' );
 background-repeat: no-repeat;
-height: 78px;
+height: 42px;
 width: 160px;
 display: block;
 color: #000000;

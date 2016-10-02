@@ -40,6 +40,7 @@ var sendResponse = function(data) {
 
 var processRelayMessage = function(data) {
   console.log('New EmberDog Friend: ', data.friendly_from);
+  console.log('What My Friend Said: ', data.content_html)
   sendResponse(data);
 };
 /**
